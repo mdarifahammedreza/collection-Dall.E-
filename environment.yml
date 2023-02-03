@@ -1,0 +1,14 @@
+name: dalle-discord
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - --find-links https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+    - jax[cuda]
+    - git+https://github.com/patil-suraj/vqgan-jax.git
+    - dalle-mini
+    - transformers==4.25.1
+    - nvidia-tensorrt==7.2.3.4
+    - discord.py

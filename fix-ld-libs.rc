@@ -1,0 +1,1 @@
+export LD_LIBRARY_PATH="$HOME/anaconda3/envs/dalle-discord/lib/python3.8/site-packages/tensorrt/:$LD_LIBRARY_PATH"
